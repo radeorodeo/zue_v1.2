@@ -1,0 +1,254 @@
+
+
+body {
+  background: #ffffff;
+  font-family: "Futura", Futura, serif;
+  color: #333;
+}
+#landing-image {
+  height: 750px;
+  color: white;
+  background-position: center;
+  /*background-image: url("https://images.unsplash.com/photo-1413882353314-73389f63b6fd?ixlib=rb-0.3.5&s=753f2c8f0b9faf6142e884a7aa14085a&auto=format&fit=crop&w=1050&q=80");*/
+  background-image: url("https://images.unsplash.com/photo-1443866451220-8377d57c426a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c1c04c7b0c8ec8e3125155f4e158ebf&auto=format&fit=crop&w=1500&q=80");
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: Futura, serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.welcome-text{
+  margin-top: auto;
+  padding-top: 100px;
+  text-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.4),
+    0 2px 2px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+
+.jumbotron{
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+.disabled:hover{
+  background-color: #6c757d;
+  color: white;
+  border-radius: 0px;
+}
+.marketing{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:  url("https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#buttons {
+  display: inline-flex;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn:hover{
+  background-color: #6c757d;
+  color: white;
+}
+.btn {
+  text-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.4),
+    0 2px 1px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #0b97c4;
+  transition: .3s ease-out;
+  padding: 0 2em;
+  margin: 3px;
+}
+.btn-lg{
+  width: 200px;
+  height: auto;
+}
+.btn-success{
+  border-radius: 0px;
+  border: none;
+  background-color: #0b97c4;
+}
+
+.service{
+  /*padding: 10px;*/
+  line-height: 2em;
+  font-size: 16px;
+  text-align: center;
+}
+.circle{
+  /*padding: 20px;*/
+  /*margin: 10px;*/
+  /*border: 2px solid #f3f3f3;*/
+  border-radius: 100px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.circle-down{
+  /*padding: 20px;*/
+  /*margin: 10px;*/
+  /*border: 2px solid #f3f3f3;*/
+  border-radius: 100px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fa-plug{
+  padding: 20px;
+  margin: 10px;
+  /*border: 2px solid #f3f3f3;*/
+  /*border-radius: 90%;*/
+  text-align: center;
+}
+.fa-cog{
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.offer {
+  text-align: -webkit-center;
+  margin-top: 0;
+  text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.1),
+    0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 100px;
+  width: auto;
+
+
+}
+
+.service-name{
+  text-align: center;
+  font-size: 6em;
+}
+.service-name:hover{
+  color: #0b97c4;
+}
+.dowiedz-sie{
+  box-sizing: content-box;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+.thumbnail-down {
+  margin-left: 20px;
+}
+
+#names {
+  font-size: 3em;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+}
+
+
+
+img{
+  height: 300px;
+  width: 300px;
+  filter: grayscale(60%);
+
+}
+img:hover{
+  filter: grayscale(0%);
+  transition:         transform 1s ease-in;
+}
+.text-muted {
+  font-size: 3em;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+}
+#down-text-muted{
+  font-family: "Chaparral Pro", serif;
+}
+
+.contact{
+  background-image: url("https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa-lightbulb{
+  font-size: 3em;
+  color: black;
+}
+
+
+.navbar{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.header{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  color: white;
+  width: 100%;
+
+}
+.footer{
+  background-color: #0b97c4;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.done{
+  text-align: center;
+  font-size: 2em;
+  text-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.4),
+    0 2px 2px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1);
+}
+.done-jobs{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr{
+  border-top: 2px solid #0b97c4;
+}
+i{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in;
+  transition:         transform .8s ease-in;
+}
+i:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/*!* Responsive: Portrait tablets and up *!*/
+/*@media screen and (min-width: 48em) {*/
+/*!* Remove the padding we set earlier *!*/
+/*.header,*/
+/*.marketing,*/
+/*.footer {*/
+/*padding-right: 0;*/
+/*padding-left: 0;*/
+/*}*/
+/*}*/
