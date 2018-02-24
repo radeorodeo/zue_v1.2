@@ -30,6 +30,10 @@ body {
   justify-content: space-between;
 }
 
+.nav{
+  background: none;
+  box-shadow: none;
+}
 
 .jumbotron{
   border-radius: 0px;
