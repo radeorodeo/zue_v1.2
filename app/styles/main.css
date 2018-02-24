@@ -156,10 +156,22 @@ body {
   background: none;
   border: none;
 }
-
-
-
+.about-image {
+  float: right;
+  height: 200px;
+  width: 300px;
+}
+.o-mnie{
+  height: auto;
+}
+/*.about-about{*/
+  /*margin-bottom: 200px;*/
+/*}*/
 img{
+  height: 300px;
+  width: 400px;
+}
+.image-done{
   height: 300px;
   width: 300px;
   filter: grayscale(60%);
@@ -209,6 +221,7 @@ img:hover{
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 .done{
   text-align: center;
