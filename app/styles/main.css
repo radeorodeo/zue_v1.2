@@ -5,7 +5,7 @@ body {
   font-family: "Futura", Futura, serif;
   color: #333;
 }
-#landing-image {
+.landing-image {
   height: 750px;
   color: white;
   background-position: center;
@@ -16,6 +16,10 @@ body {
   font-family: Futura, serif;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+.center{
+  text-align: center;
+  display: inline-block;
 }
 .welcome-text{
   margin-top: auto;
@@ -62,12 +66,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.btn:hover{
+.nav-item:hover{
   background-color: #6c757d;
   color: white;
 }
-.btn {
-  text-shadow:
+.nav-item {
+  box-shadow:
     0 2px 2px rgba(0, 0, 0, 0.4),
     0 2px 1px rgba(0, 0, 0, 0.1),
     0 2px 2px rgba(0, 0, 0, 0.1);
