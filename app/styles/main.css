@@ -23,7 +23,7 @@ body {
 }
 .welcome-text{
   margin-top: auto;
-  padding-top: 100px;
+  padding-top: auto;
   text-shadow:
     0 2px 2px rgba(0, 0, 0, 0.4),
     0 2px 2px rgba(0, 0, 0, 0.1),
@@ -33,12 +33,19 @@ body {
   position: relative;
   justify-content: space-between;
 }
-
+.navbar{
+  display: inline-block;
+}
+.navbar-toggler{
+  background-color: rgba(0,0,0,.25);
+}
 .nav{
   background: none;
   box-shadow: none;
 }
-
+.navbar-light .navbar-nav .nav-link {
+  color: #F3f3f3;
+}
 .jumbotron{
   border-radius: 0px;
   margin-bottom: 0;
