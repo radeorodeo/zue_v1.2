@@ -14,43 +14,52 @@
 </head>
 <body>
 <div class="header">
-  <div class="container">
+  <div class=" container">
     <nav class="navbar navbar-expand-lg navbar-light">
+      <ul class="float-left">
+        <li>
+          <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light float-right">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div>
-        <a href="/" class="nav-link names"><i class="fa fa-home"></i></a>
-      </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="o-mnie.html">O mnie</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item ">
+            <a class="nav-link" href="o-mnie.html">O mnie<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="oferta.html">Usługi</a>
+            <a class="nav-link" href="oferta.html">Oferta</a>
           </li>
-          <li>
-            <a class="nav-link disabled" href="portfolio.html">Portfolio</a>
+          <li class="nav-item">
+            <a class="nav-link " href="portfolio.html">Realizacje</a>
           </li>
-          <li>
-            <a class="nav-link disabled" href="kontakt.html">Kontakt</a>
+          <li class="nav-item">
+            <a class="nav-link " href="kontakt.html">Kontakt</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
 </div>
+<div class="row">
+  <div class="container">
+    <p>Jestem Jarek i montuje różne sprawy! Montuje je od bardzo bardzo dawna i wiem że dobre montowanie spraw
+      się sprawdza! Skończyłem polibude 100 lat temu, potem robiłem różne rzeczy i teraz mogę podłączyć Cię
+      do prądu ale nie tylko! Po prawej stronie masz moje zajebiste zdjęcie jak montuje coś!
+    </p>
+  </div>
+</div>
 
-<p>Jestem Jarek i montuje różne sprawy! Montuje je od bardzo bardzo dawna i wiem że dobre montowanie spraw
-  się sprawdza! Skończyłem polibude 100 lat temu, potem robiłem różne rzeczy i teraz mogę podłączyć Cię
-  do prądu ale nie tylko! Po prawej stronie masz moje zajebiste zdjęcie jak montuje coś!
-</p>
 
 
 
 
-<div class="jumbotron footer">
+
+<div class=" footer">
   <div class="container">
     <div>
       <p>Copyright 2018 Radek Pawlak Studio Web Dizajnu!</p>
@@ -65,6 +74,8 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
   ga('create','UA-XXXXX-X');ga('send','pageview');
 </script>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
 <script src="scripts/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
