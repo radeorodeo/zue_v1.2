@@ -1,19 +1,81 @@
 
-
 body {
   background: #ffffff;
   font-family: "Futura", Futura, serif;
   color: #333;
+  background-size: cover;
+
 }
-.jumbotron{
-  border-radius: 0px;
-  margin-bottom: 0;
+
+/*NAVBAR STYLE!*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6c757d;
 }
-.disabled:hover{
-  background-color: #6c757d;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0b97c4;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+.fa-home {
+  color: #6c757d;
+}
+.fa-home:hover{
+  color: #0b97c4;
+}
+.navbar-brand {
+  font-size: 3rem;
+}
+.navbar{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: inline;
+  /*text-shadow:*/
+  /*0 2px 2px rgba(0, 0, 0, 0.4),*/
+  /*0 2px 2px rgba(0, 0, 0, 0.1),*/
+  /*0 2px 2px rgba(0, 0, 0, 0.1);*/
+}
+.navbar-toggler-icon{
+  width: 100px;
+}
+.header{
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
   color: white;
-  border-radius: 0px;
+  width: 100%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  font-size: 1.5em;
+  padding-top: 10px;
 }
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/*END OF NAVBAR STYLE*/
+.footer{
+  background-color: #0b97c4;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+
 .marketing{
   height: 100%;
   background: rgba(255, 255, 255, 0.7);
@@ -58,85 +120,6 @@ body {
   color: #0b97c4;
 }
 
-#names {
-  font-size: 3em;
-  text-transform: capitalize;
-  background: none;
-  border: none;
-}
-
-#landing-image {
-  height: 850px;
-  color: white;
-  background-position: center;
-  background-image: url("https://images.unsplash.com/photo-1413882353314-73389f63b6fd?ixlib=rb-0.3.5&s=753f2c8f0b9faf6142e884a7aa14085a&auto=format&fit=crop&w=1050&q=80");
-  -webkit-background-size: cover;
-  background-size: cover;
-  font-family: Futura, serif;
-}
-.welcome-text{
-  margin-top: 400px;
-  text-shadow:
-    0 2px 2px rgba(0, 0, 0, 0.4),
-    0 2px 2px rgba(0, 0, 0, 0.1),
-    0 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-.btn-success{
-  border-radius: 0px;
-  border: none;
-  background-color: #0b97c4;
-}
-img{
-  height: 300px;
-  width: 300px;
-  filter: grayscale(60%);
-
-}
-img:hover{
-  filter: grayscale(0%);
-  transition:         transform 1s ease-in;
-}
-.text-muted {
-  font-size: 3em;
-  text-transform: capitalize;
-  background: none;
-  border: none;
-}
-#down-text-muted{
-  font-family: "Chaparral Pro", serif;
-}
-
-
-.btn-lg{
-  width: 300px;
-  height: auto;
-}
-
-.navbar{
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-.header{
-  position: relative;
-  background: rgba(255, 255, 255, 0.9);
-  color: white;
-  width: 100%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-
-}
-.footer{
-  background-color: #0b97c4;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.done-jobs{
-  height: 900px;
-}
-.contact{
-  height: 900px;
-}
 
 hr{
   border-top: 2px solid #0b97c4;
@@ -151,16 +134,7 @@ i:hover {
   transform: rotate(360deg);
 }
 
-/*!* Responsive: Portrait tablets and up *!*/
-/*@media screen and (min-width: 48em) {*/
-/*!* Remove the padding we set earlier *!*/
-/*.header,*/
-/*.marketing,*/
-/*.footer {*/
-/*padding-right: 0;*/
-/*padding-left: 0;*/
-/*}*/
-/*}*/
+
 body{
   background-size: cover;
   background: url(https://images.unsplash.com/photo-1507919909716-c8262e491cde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8c2af8c5a72c84118f892f0bbbfe992&auto=format&fit=crop&w=1489&q=80) no-repeat fixed center;

@@ -5,6 +5,9 @@ body {
   color: #333;
   background-size: cover;
 }
+
+/*NAVBAR STYLE!*/
+
 .navbar-light .navbar-nav .nav-link {
   color: #6c757d;
 }
@@ -46,8 +49,19 @@ body {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   display: flex;
   font-size: 1.5em;
-  margin-top: 15px;
+  padding-top: 10px;
 }
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+/* Remove the padding we set earlier */
+.header,
+.marketing,
+.footer {
+padding-right: 0;
+padding-left: 0;
+}
+}
+/*END OF NAVBAR STYLE*/
 .footer{
   background-color: #0b97c4;
   height: auto;
@@ -61,19 +75,5 @@ body {
   text-align: center;
 }
 
-
-
-
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
-/* Remove the padding we set earlier */
-.header,
-.marketing,
-.footer {
-padding-right: 0;
-padding-left: 0;
-}
-}
 
 
