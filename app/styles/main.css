@@ -20,6 +20,7 @@ body {
 .center{
   text-align: center;
   display: inline-block;
+  font-size: 22px;
 }
 .welcome-text{
   margin-top: auto;
@@ -45,6 +46,10 @@ body {
 }
 .navbar-light .navbar-nav .nav-link {
   color: #F3f3f3;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 .jumbotron{
   border-radius: 0px;
@@ -84,7 +89,7 @@ body {
     0 2px 2px rgba(0, 0, 0, 0.1);
   background-color: #0b97c4;
   transition: .3s ease-out;
-  padding: 0 2em;
+  padding: 0;
   margin: 3px;
 }
 .btn-lg{
@@ -145,8 +150,6 @@ body {
   padding: 10px;
   border-radius: 100px;
   width: auto;
-
-
 }
 
 .service-name{
@@ -178,6 +181,10 @@ body {
 }
 .o-mnie{
   height: auto;
+}
+.about-about{
+  margin-left: auto;
+  margin-right: auto;
 }
 /*.about-about{*/
   /*margin-bottom: 200px;*/
