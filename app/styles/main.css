@@ -69,7 +69,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 #buttons {
@@ -105,25 +104,21 @@ body {
 .service{
   /*padding: 10px;*/
   line-height: 2em;
-  font-size: 16px;
+  font-size: 1.5em;
   text-align: center;
 }
 .circle{
   /*padding: 20px;*/
   /*margin: 10px;*/
   /*border: 2px solid #f3f3f3;*/
-  border-radius: 100px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .circle-down{
   /*padding: 20px;*/
   /*margin: 10px;*/
   /*border: 2px solid #f3f3f3;*/
-  border-radius: 100px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .fa-plug{
@@ -138,23 +133,26 @@ body {
   margin: 10px;
   text-align: center;
 }
-
+.oferta{
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+}
 .offer {
   text-align: -webkit-center;
   margin-top: 0;
+  margin-bottom: 3%;
   text-shadow:
     0 1px 1px rgba(0, 0, 0, 0.4),
     0 1px 1px rgba(0, 0, 0, 0.1),
     0 1px 1px rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
-  border-radius: 100px;
+  border-radius: 0;
   width: auto;
 }
 
 .service-name{
   text-align: center;
-  font-size: 6em;
+  font-size: 10em;
 }
 .service-name:hover{
   color: #0b97c4;
@@ -162,7 +160,7 @@ body {
 .dowiedz-sie{
   box-sizing: content-box;
   text-align: center;
-  margin: 30px auto 30px auto;
+  margin: 7% auto 30px auto;
 }
 .thumbnail-down {
   margin-left: 20px;
@@ -175,16 +173,30 @@ body {
   border: none;
 }
 .about-image {
-  float: right;
-  height: 200px;
-  width: 300px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .o-mnie{
   height: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .about-about{
   margin-left: auto;
   margin-right: auto;
+}
+.btn-light{
+  border: none;
+  border-radius: 0;
+  box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.4),
+    0 2px 1px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: auto;
+}
+.btn-light:hover{
+  background: #0b97c4;
 }
 /*.about-about{*/
   /*margin-bottom: 200px;*/
@@ -192,6 +204,10 @@ body {
 img{
   height: 300px;
   width: 400px;
+  box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.4),
+    0 2px 1px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1);
 }
 .image-done{
   height: 300px;
@@ -247,16 +263,16 @@ img:hover{
 }
 .done{
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   text-shadow:
     0 2px 2px rgba(0, 0, 0, 0.4),
     0 2px 2px rgba(0, 0, 0, 0.1),
     0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3%;
 }
 .done-jobs{
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3% auto;
 }
 .contact{
   height: auto;
