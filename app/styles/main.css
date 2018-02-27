@@ -1,7 +1,7 @@
 
 
 body {
-  background: #ffffff;
+  background: #f7f7f7;
   font-family: "Futura", Futura, serif;
   color: #333;
 }
@@ -16,6 +16,7 @@ body {
   font-family: Futura, serif;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
 .center{
   text-align: center;
@@ -36,7 +37,16 @@ body {
 }
 .navbar{
   display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
+.header{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  color: white;
+  width: 100%;
+}
+
 .navbar-toggler{
   background-color: rgba(0,0,0,.25);
 }
@@ -78,7 +88,7 @@ body {
   margin-right: auto;
 }
 .nav-item:hover{
-  background-color: #f3f3f3;
+  background-color: #eeeeee;
   color: white;
 }
 .nav-item {
@@ -137,18 +147,6 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   width: 100%;
 }
-.offer {
-  text-align: -webkit-center;
-  margin-top: 0;
-  margin-bottom: 3%;
-  text-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.4),
-    0 1px 1px rgba(0, 0, 0, 0.1),
-    0 1px 1px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 0;
-  width: auto;
-}
 
 .service-name{
   text-align: center;
@@ -194,10 +192,11 @@ body {
     0 2px 2px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: auto;
+  background: #eeeeee;
 }
 .btn-light:hover{
   background: #0b97c4;
-  color: #f3f3f3;
+  color: #eeeeee;
 }
 /*.about-about{*/
   /*margin-bottom: 200px;*/
@@ -213,13 +212,7 @@ body {
   font-family: "Chaparral Pro", serif;
 }
 
-.contact{
-  background-image: url("https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .fa-lightbulb{
   font-size: 3em;
@@ -227,24 +220,6 @@ body {
 }
 
 
-.navbar{
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-.header{
-  position: absolute;
-  background: rgba(255, 255, 255, 0.7);
-  color: white;
-  width: 100%;
-
-}
-.footer{
-  background-color: #0b97c4;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 
 /* realizacje */
 .done{
@@ -258,7 +233,9 @@ body {
 }
 .done-jobs{
   height: auto;
-  margin: 3% auto;
+  margin: 3% auto auto auto;
+  box-shadow:  0 8px 8px rgba(0,0,0,.28);
+
 }
 .image{
   padding-top: 20px;
@@ -282,18 +259,14 @@ img{
 .done-button{
   box-sizing: content-box;
   text-align: center;
-  margin: 7% auto 30px auto;
+  margin: 7% auto 7% auto;
   letter-spacing: 1.5px;
 }
 img:hover{
   filter: grayscale(0%);
   transition:         transform 1s ease-in;
 }
-.contact{
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .img-thumbnail{
   text-align: center;
   width: auto;
@@ -322,6 +295,68 @@ i:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+.offer {
+  text-align: -webkit-center;
+  margin-top: 0;
+  margin-bottom: 3%;
+  text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.4),
+    0 1px 1px rgba(0, 0, 0, 0.1),
+    0 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 0;
+  width: auto;
+}
+.contact-word{
+  padding-top: 30px;
+}
+.company-info{
+  font-size: 1.7em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+.call{
+  height: auto;
+  font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+
+.contact-section{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  text-align: center;
+}
+.contact-background-blur{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.footer{
+  background-color: #0b97c4;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .call {
+    font-size: 2em;
+  }
+}
+
 
 /*!* Responsive: Portrait tablets and up *!*/
 /*@media screen and (min-width: 48em) {*/
