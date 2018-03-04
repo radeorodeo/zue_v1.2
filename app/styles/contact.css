@@ -1,3 +1,12 @@
+body {
+  background: #f7f7f7;
+  font-family: "Futura", Futura, serif;
+  color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-0.3.5&s=9a1e1f50fda7780e29a15314937a753e&auto=format&fit=crop&w=1950&q=80");
+}
+/*navbar*/
 .navbar-light .navbar-nav .nav-link {
   color: #6c757d;
 }
@@ -54,6 +63,33 @@
   }
 }
 /*END OF NAVBAR STYLE*/
+.company-info{
+  font-size: 1.7em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+.call{
+  height: auto;
+  font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+.contact-background-blur{
+  background: rgba(255, 255, 255, 0.7);
+  background-size: auto;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+/*footer*/
+
+
 .footer{
   background-color: #0b97c4;
   height: auto;
@@ -61,8 +97,8 @@
   margin-right: auto;
   position: absolute;
   right: 0;
-  bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
 }
+
